@@ -30,7 +30,7 @@ int main()
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     printf("Digite o código (Exemplo: \"A01\", \"B02\", etc.): ");
-    scanf("%s", codigo1); 
+    scanf("%s", codigo1);
     printf("Digite a população da cidade (Exemplo: 30000): ");
     scanf("%d", &populacao1);
     printf("Digite a área da cidade (Exemplo: 254.000): ");
@@ -66,8 +66,8 @@ int main()
     printf("Dados da Cidade 1:\n");
     printf("Código: %s\n", codigo1);
     printf("População: %d\n", populacao1);
-    printf("Área: %.3f\n", area1);
-    printf("PIB: %.3f\n", PIB1);
+    printf("Área: Km² %.3f\n", area1);
+    printf("PIB: R$ %.3f\n", PIB1);
     printf("Número de Pontos Turísticos: %d\n", numero_pontos_turisticos1);
 
     // linha em branco
@@ -79,9 +79,11 @@ int main()
     printf("Dados da Cidade 2:\n");
     printf("Código: %s\n", codigo2);
     printf("População: %d\n", populacao2);
-    printf("Área: %.3f\n", area2);
-    printf("PIB: %.3f\n", PIB2);
+    printf("Área: Km² %.3f\n", area2);
+    printf("PIB: R$ %.3f\n", PIB2);
     printf("Número de Pontos Turísticos: %d\n", numero_pontos_turisticos2);
+    // linha em branco
+    printf("\n");
 
     return 0;
 }
